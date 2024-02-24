@@ -1,0 +1,87 @@
+@import "./../../Utils/Styling/Mixin.scss";
+
+
+.Login_main {
+    background: url("./../../assets/Cover\(1\).png");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .Login_form {
+        background: rgba(0, 0, 0, 0.5);
+        width: 20rem;
+        height: 20rem;
+        border-radius: 10px;
+       
+
+        form {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 20px;
+
+
+            .title {
+                color: white;
+
+            }
+
+            .username,
+            .password {
+
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    border: none;
+                    outline: none;
+                    width: 15rem;
+                    border-radius: 10px;
+                    height: 1rem;
+                    padding: 10px;
+
+
+                    &::placeholder {
+                        text-align: justify;
+                        font-size: 16px;
+                        color: black;
+                        font-weight: 500;
+                    }
+                }
+
+
+
+            }
+
+          button{
+            width: 10rem;
+            height: 2rem;
+            border-radius: 10px;
+            background: blue;
+            border: none;
+            outline: none;
+            color: white;
+            font-size: 16px;
+          }
+
+        }
+        p{
+            text-align: center;
+            color: white;
+        }
+    }
+}
+
+
+
+.href{
+    color: blue;
+    cursor: pointer;
+}

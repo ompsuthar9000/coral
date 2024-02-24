@@ -1,0 +1,98 @@
+.ProdDetail_main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Similar_Products {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 2rem;
+
+
+}
+
+.ProdDetail {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.ProdDescription {
+    width: 30rem;
+
+    h2,
+    h3 {
+        font-family: "Roboto", sans-serif;
+    }
+
+    p {
+        font-family: "Poppins", sans-serif;
+        text-align: justify;
+    }
+
+    .Category {
+        color: #777777;
+
+    }
+
+    button {
+        width: 8rem;
+        height: 2.5rem;
+        color: white;
+        background: #000;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+.prodImg {
+    border: 1px solid rgba($color: #000000, $alpha: 0.2);
+    margin-top: 1rem;
+    width: 17rem;
+    height: fit-content;
+   img{
+    width: 17rem;
+    height: auto;
+   }
+}
+
+.Counter {
+    width: 6rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+    div {
+        display: flex;
+        border: 1px solid black;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+}
+
+.Counter_div {
+    h3 {
+        margin: 0px;
+        font-size: 12px;
+
+    }
+
+    margin-bottom: 2rem;
+}
+
+.Similar_Products-title{
+    font-family: "Roboto", sans-serif;
+    padding-left: 3rem;
+}

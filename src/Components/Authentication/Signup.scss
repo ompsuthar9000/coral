@@ -1,0 +1,67 @@
+@import "../../Utils/Styling/Mixin.scss";
+
+
+.SignUp_main {
+
+    background: url("./../../assets/Cover\(1\).png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .SignUp_form {
+        background: rgba(0, 0, 0, 0.5);
+        width: 20rem;
+        height: 25rem;
+        border-radius: 10px;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            h1 {
+                color: white;
+            }
+
+            input {
+                border: none;
+                outline: none;
+                width: 15rem;
+                border-radius: 10px;
+                height: 1rem;
+                padding: 10px;
+                &::placeholder {
+                    text-align: justify;
+                    font-size: 16px;
+                    color: black;
+                    font-weight: 500;
+                }
+
+            }
+            button{
+                width: 10rem;
+                height: 2rem;
+                border-radius: 10px;
+                background: blue;
+                border: none;
+                outline: none;
+                color: white;
+                font-size: 16px;
+              }
+        }
+        p{
+            text-align: center;
+            color: white;
+        }
+    }
+}
+
+
